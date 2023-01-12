@@ -1,0 +1,32 @@
+{
+  "name": "@valluzzi/spatial_ref_sys_all",
+  "version": "1.0.0",
+  "description": "Javascript list for Spatial Reference Systems",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist & set NODE_ENV=production & babel src/lib --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valluzzi/spatial_ref_sys_all.git"
+  },
+  "keywords": [
+    "Spatial Reference Systems",
+    "srs"
+  ],
+  "author": "Valerio Luzzi <valluzzi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valluzzi/spatial_ref_sys_all/issues"
+  },
+  "homepage": "https://github.com/valluzzi/spatial_ref_sys_all#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@valluzzi/spatial_ref_sys_all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript list for Spatial Reference Systems",
   "main": "dist/index.js",
   "module": "dist/index.js",

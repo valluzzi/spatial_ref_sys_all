@@ -26,7 +26,10 @@
 import { __spatial_ref_sys_all__ } from "./spatial_ref_sys_all"
 
 export function SpatialRefSysAll(authid){
+    if (authid===undefined) 
+        return __spatial_ref_sys_all__
     authid = ""+authid
     let srid = (authid.includes(":"))?authid.split(":")[1]:authid
     return __spatial_ref_sys_all__[srid]
 }
+
